@@ -1,0 +1,37 @@
+{
+    "Products": [
+      {
+        "id": 1,
+        "name": "Lipstick Set",
+        "price": "$19.99",
+        "image": "P1.jpg",
+        "category": "Makeup",
+        "description": "A brand new TV, lightly used, with some questionable origins."
+      },
+      {
+        "id": 2,
+        "name": "Hilfiger Perfume",
+        "price": "$29.99",
+        "image": "P2.jpg",
+        "category": "Perfumes",
+        "description": "A brand new TV, lightly used, with some questionable origins."
+      },
+      {
+        "id": 3,
+        "name": "Gucci Bag",
+        "price": "$39.99",
+        "image": "P3.jpeg",
+        "category": "Bags",
+        "description": "A brand new TV, lightly used, with some questionable origins."
+      },
+      {
+        "id": 4,
+        "name": "LV Bag",
+        "price": "$49.99",
+        "image": "P4.jpeg",
+        "category": "Bags",
+        "description": "A brand new TV, lightly used, with some questionable origins."
+      }
+    ]
+  }
+  

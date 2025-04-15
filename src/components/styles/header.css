@@ -1,0 +1,62 @@
+/* header.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #000000, #434343);
+    color: #e0e0e0;
+  }
+  
+  .header {
+    background-color: #0a0a0a !important;
+    box-shadow: 0 2px 4px rgba(0, 255, 255, 0.1);
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 0px 3px cyan);
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid #00ffee;
+  }
+  
+  .search input {
+    color: #00ffee;
+    padding: 8px;
+    width: 300px;
+  }
+  
+  .search-icon {
+    color: #00ffee !important;
+  }
+  
+  .nav-links button {
+    color: #00ffee;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  .basket-count {
+    background-color: #ff2d55;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    right: 5px;
+  }
+  

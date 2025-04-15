@@ -1,0 +1,59 @@
+.customer-service-container {
+    padding: 60px 20px;
+    color: #00ffe7;
+    text-align: center;
+}
+
+.support-heading {
+    font-size: 36px;
+    color: #ff2d55;
+    text-shadow: 0 0 10px cyan;
+    margin-bottom: 10px;
+}
+
+.support-subtext {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.fake-chatbox {
+    border: 2px solid #00ffe7;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    text-align: left;
+    font-family: monospace;
+}
+
+.fake-chatbox p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.fake-chatbox hr {
+    border: none;
+    border-top: 1px solid rgba(0, 255, 255, 0.2);
+    margin: 10px 0;
+}
+
+.add-to-cart-btn {
+    background-color: #ff2d55;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #ff1b39;
+    transform: scale(1.05);
+}

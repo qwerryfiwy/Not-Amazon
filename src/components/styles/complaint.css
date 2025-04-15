@@ -1,0 +1,65 @@
+.complaint-container {
+    background: #101010;
+    color: #00ffe7;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 255, 255, 0.1);
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.complaint-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff2d55;
+}
+
+.complaint-subtext {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.complaint-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.complaint-textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #232323;
+    border: 1px solid #00ffe7;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    resize: none;
+}
+
+.submit-complaint-btn {
+    background-color: #ff2d55;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.submit-complaint-btn:hover {
+    background-color: #ff1b39;
+    transform: scale(1.05);
+}
+
+.response-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff2d55;
+    font-weight: bold;
+}
+
