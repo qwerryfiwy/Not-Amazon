@@ -6,6 +6,7 @@ import Home from './components/home'
 import LandingPage from './components/landingpage'
 import CustomerService from './components/customerService'
 import Complaint from './components/complaint'
+import TodaysDeals from './components/todaysDeals';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/customer-service" element={<CustomerService />} />
         <Route path="/complaint" element={<Complaint />} />
+        <Route path="/today's-deals" element={<TodaysDeals/>}/>
         {/* Add more routes like login, product etc */}
       </Routes>
     </Router>

@@ -1,0 +1,95 @@
+/* Today's Deal Section */
+.deal-section {
+    background: var(--bg-darker);
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    margin: 40px 0;
+    box-shadow: var(--glow-shadow);
+}
+
+.deal-header {
+    font-size: 32px;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px var(--secondary-color);
+    animation: fadeIn 1s ease-out;
+}
+
+.deal-card {
+    background: var(--bg-card);
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--card-shadow);
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 350px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    animation: float 5s ease-in-out infinite;
+}
+
+.deal-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 5px var(--primary-color));
+    transition: transform 0.4s ease;
+}
+
+.deal-card h3 {
+    font-size: 24px;
+    color: var(--text-light);
+    margin-bottom: 10px;
+}
+
+.deal-card p {
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.deal-card .deal-description {
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.deal-card .buy-now-btn {
+    background: var(--secondary-color);
+    color: var(--text-light);
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.deal-card .buy-now-btn:hover {
+    background-color: #ff1b39;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 45, 85, 0.5);
+}
+
+/* Optional: glowing animated border for deal card on hover */
+.deal-card:hover::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--primary-color));
+    z-index: -1;
+    border-radius: 18px;
+    animation: glowingBorder 1.5s linear infinite;
+}
