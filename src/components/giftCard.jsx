@@ -41,9 +41,12 @@ const GiftCard = () => {
         <button className="gift-card-btn" onClick={handlePurchase}>
           Purchase Gift Card
         </button>
-      </div>
+        <a href='/home'>
+        <button className='add-to-cart-btn'>Return to Safety</button>
+        </a>
+      </div>    
     </div>
   );
-};
+};  
 
 export default GiftCard;
