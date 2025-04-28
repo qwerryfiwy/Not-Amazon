@@ -8,6 +8,7 @@ import CustomerService from './components/customerService'
 import Complaint from './components/complaint'
 import TodaysDeals from './components/todaysDeals';
 import GiftCard from './components/giftCard';
+import Registry from './components/registry';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/complaint" element={<Complaint />} />
         <Route path="/today's-deals" element={<TodaysDeals/>}/>
         <Route path="/gift-cards" element={<GiftCard/>}/>
+        <Route path="/registry" element={<Registry />} />
       </Routes>
     </Router> 
   );
