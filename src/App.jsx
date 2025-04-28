@@ -7,6 +7,7 @@ import LandingPage from './components/landingpage'
 import CustomerService from './components/customerService'
 import Complaint from './components/complaint'
 import TodaysDeals from './components/todaysDeals';
+import GiftCard from './components/giftCard';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/customer-service" element={<CustomerService />} />
         <Route path="/complaint" element={<Complaint />} />
         <Route path="/today's-deals" element={<TodaysDeals/>}/>
+        <Route path="/gift-cards" element={<GiftCard/>}/>
       </Routes>
     </Router> 
   );

@@ -1,0 +1,118 @@
+/* GiftCard Styles */
+.gift-card {
+    background: var(--bg-card);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    animation: slideUp 0.5s ease-out;
+}
+
+.gift-card-title {
+    font-size: 24px;
+    color: var(--text-light);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.gift-card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.gift-card-label {
+    color: var(--text-light);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gift-card-select {
+    background-color: var(--bg-darker);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gift-card-select:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+.gift-card-textarea {
+    background-color: var(--bg-darker);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    resize: none;
+    transition: all 0.3s ease;
+}
+
+.gift-card-textarea:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+.gift-card-btn {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.gift-card-btn:hover {
+    background-color: #ff1b39;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 45, 85, 0.4);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .gift-card {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .gift-card-title {
+        font-size: 22px;
+    }
+    
+    .gift-card-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gift-card {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .gift-card-title {
+        font-size: 20px;
+    }
+    
+    .gift-card-btn {
+        font-size: 12px;
+    }
+}
