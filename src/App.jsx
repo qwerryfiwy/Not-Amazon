@@ -12,16 +12,15 @@ function App() {
 
   return (
     <Router>
-      <Head /> {/* this will stay at top on every page */}
+      <Head /> 
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<Home />} />
         <Route path="/customer-service" element={<CustomerService />} />
         <Route path="/complaint" element={<Complaint />} />
         <Route path="/today's-deals" element={<TodaysDeals/>}/>
-        {/* Add more routes like login, product etc */}
       </Routes>
-    </Router>
+    </Router> 
   );
 };
 
