@@ -20,6 +20,7 @@ const Registry = () => {
       "You're trying to add an item to the registry. How cute. Let us remind you: Nothing ever goes as planned here.",
       "The Cyber Police are having a good laugh right now. Your registry? Its just a list of empty promises."
     ];
+    
     const randomIndex = Math.floor(Math.random() * randomJoke.length);
     setJokeMessage(randomJoke[randomIndex]);
   };
