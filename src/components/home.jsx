@@ -21,7 +21,7 @@ function Home() {
                     <li className="nav-item" onClick={() => setShowCategories(!showCategories)}>
                         <a href="#all">All</a>
                     </li>
-                    {["Today's Deals", "Customer Service", "Gift Cards", "Registry", "Sell"].map((item, index) => (
+                    {["Today's Deals", "Customer Service", "Gift Cards"].map((item, index) => (
                         <li key={index} className="nav-item">
                             <a href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}>{item}</a>
                         </li>
